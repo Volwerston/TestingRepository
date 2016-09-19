@@ -6,6 +6,7 @@ int main()
 {
 	cout << "Hello world" << endl;
 	cout << "Sth else out there ;)" << endl;
+	cout << "Some more data" << endl;
 	system("pause");
 	return 0;
 }
