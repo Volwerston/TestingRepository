@@ -1,12 +1,16 @@
 #include <iostream>
+#include "Classes.h"
 
 using namespace std;
 
 int main()
 {
-	cout << "Hello world" << endl;
-	cout << "Sth else out there ;)" << endl;
-	cout << "Some more data" << endl;
+	makeAmericaGreatAgain(President("Trump"));
+	makeAmericaGreatAgain(President("Clinton"));
+	makeAmericaGreatAgain(President("Sanders"));
+
+	cout << "Azaza lal !!!!!1!111!" << endl;
+	
 	system("pause");
 	return 0;
 }
